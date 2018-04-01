@@ -7,11 +7,16 @@
     "dev": "nodemon index.js"
   },
   "dependencies": {
+    "@types/colors": "^1.2.1",
+    "chalk": "^2.3.2",
     "colors": "^1.1.2",
     "mz": "^2.7.0"
   },
   "devDependencies": {
-    "nodemon": "^1.12.4"
+    "@types/node": "^9.6.1",
+    "nodemon": "^1.12.4",
+    "tsc": "^1.20150623.0",
+    "typescript": "^2.8.1"
   },
   "author": {
     "name": "Hugo Muller-Downing",
